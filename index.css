@@ -1,0 +1,50 @@
+/* Write your code here. */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  text-align: center;
+}
+.heading {
+  color: black;
+  font-size: 40px;
+  font-family: "Roboto";
+}
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.info-msg {
+  width: 50%;
+  background-color: #0b69ff;
+  display: flex;
+  padding: 15px;
+}
+.image1 {
+  height: 50px;
+  width: 50px;
+}
+.para1 {
+  color: white;
+  font-size: 10px;
+}
+.success-msg {
+  width: 50%;
+  background-color: #2dca73;
+  display: flex;
+  padding: 15px;
+}
+.warning-msg {
+  width: 50%;
+  background-color: #ffb800;
+  display: flex;
+  padding: 15px;
+}
+.error-msg {
+  width: 50%;
+  background-color: #ff0b37;
+  display: flex;
+  padding: 15px;
+}
